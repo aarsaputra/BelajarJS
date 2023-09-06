@@ -9,15 +9,18 @@
 // alert('Maka jumlah kedua volume kubus tersebut adalah ' + hasil_volume );
 function MenjumlahkanVolume2Kubus(a, b)
 {
-  var Volume_a;
-  var Volume_b;
-  var total;
+  // var Volume_a;
+  // var Volume_b;
+  // var total;
   
-  Volume_a = a * a * a;
-  Volume_b = b * b * b;
+  // Volume_a = a * a * a;
+  // Volume_b = b * b * b;
   
-  total = Volume_a + Volume_b;
+  // total = Volume_a + Volume_b;
   
-  return total;
+  // return total;
+  // menggunakan metode refactoring / saya mengurangi penggunaan variabel dalam
+  // memanggil nomor
+  return total = a * a * a + b * b * b;
 }
 alert('Total volume 2 kubus dari ialah '  + (MenjumlahkanVolume2Kubus(7, 8)));
