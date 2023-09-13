@@ -1,0 +1,34 @@
+var array1 = [1,2,3,4,5];
+// alert(array1[2])
+console.log(array1);
+// Memanipulasi Array 
+//1. Menambah isi Arrayvar 
+// var arr = [];
+// arr[0] = "Aar";
+// arr[1] = "Saputra";
+//   console.log(arr);
+  
+  // 2. Menghapus isi Array
+  // var arr = ["Aar", "Saputra"];
+  // arr[1] = undefined;
+  // console.log(arr);
+  
+  // 3. Menampilkan isi Array
+//   var arr = ["Aar","Saputra"];
+
+// for(var i = 0; i < arr.length; i++) {
+//   console.log('Nama siswa ke ' + (i+1) + ' ' + arr[i]);
+// }
+
+//          METHOD PADA ARRAY 
+// 1. join
+var arr = ["Aar","Saputra"];
+// console.log(arr.join(' - '));
+
+// 2. push, pop, 
+// arr.push('Heee','Heeeeee');
+// arr.pop();
+// 3. shift, unsift
+arr.shift();
+arr.unshift('heew');
+console.log(arr.join(' - '));
