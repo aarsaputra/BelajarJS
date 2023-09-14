@@ -22,13 +22,21 @@ console.log(array1);
 
 //          METHOD PADA ARRAY 
 // 1. join
-var arr = ["Aar","Saputra"];
+// var arr = ["Aar","Saputra"];
 // console.log(arr.join(' - '));
 
 // 2. push, pop, 
 // arr.push('Heee','Heeeeee');
 // arr.pop();
 // 3. shift, unsift
-arr.shift();
-arr.unshift('heew');
-console.log(arr.join(' - '));
+// arr.shift();
+// arr.unshift('heew');
+// console.log(arr.join(' - '));
+// 4. Splice
+var arr = ['Aar', 'Saputra', 'hanna', 'fitri'];
+// rumus splice(IndexAwal, maudihapusBerapa, elemenBaru1,
+// elemenBaru2,.....elemenBarun)
+// arr.splice(1,0,'Hai','semua');
+// 5. Slice
+var arr2 = arr.slice(2,3);
+console.log(arr2.join(' - '));
