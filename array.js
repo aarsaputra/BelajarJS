@@ -33,10 +33,22 @@ console.log(array1);
 // arr.unshift('heew');
 // console.log(arr.join(' - '));
 // 4. Splice
-var arr = ['Aar', 'Saputra', 'hanna', 'fitri'];
+// var arr = ['Aar', 'Saputra', 'hanna', 'fitri'];
 // rumus splice(IndexAwal, maudihapusBerapa, elemenBaru1,
 // elemenBaru2,.....elemenBarun)
 // arr.splice(1,0,'Hai','semua');
 // 5. Slice
-var arr2 = arr.slice(2,3);
-console.log(arr2.join(' - '));
+// var arr2 = arr.slice(2,3);
+// console.log(arr2.join(' - '));
+// 6. ForEach
+var angka = [1,2,3,4,5,6,7,8];
+var arr = ['Aar', 'Saputra', 'hanna', 'fitri'];
+// for (var i = 0; i < angka.length; i++){
+//   console.log(angka[i]);
+// }
+angka.forEach(function(e){
+  console.log(e);
+ })
+ arr.forEach(function(e,i){
+   console.log('Mahasiswa ke - ' + (i+1) + ' adalah : ' + e);
+ })
