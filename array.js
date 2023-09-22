@@ -41,14 +41,36 @@ console.log(array1);
 // var arr2 = arr.slice(2,3);
 // console.log(arr2.join(' - '));
 // 6. ForEach
-var angka = [1,2,3,4,5,6,7,8];
-var arr = ['Aar', 'Saputra', 'hanna', 'fitri'];
 // for (var i = 0; i < angka.length; i++){
 //   console.log(angka[i]);
 // }
-angka.forEach(function(e){
-  console.log(e);
- })
- arr.forEach(function(e,i){
-   console.log('Mahasiswa ke - ' + (i+1) + ' adalah : ' + e);
- })
+// angka.forEach(function(e){
+//   console.log(e);
+// })
+// arr.forEach(function(e,i){
+//   console.log('Mahasiswa ke - ' + (i+1) + ' adalah : ' + e);
+// })
+// 7. map 
+// var angka = [1,2,3,4,5,6,7,8];
+// var arr = ['Aar', 'Saputra', 'hanna', 'fitri'];
+// var angka2 = angka.map(function(e) {
+//   return e * 2;
+// })
+// console.log(angka2.join(' - '))
+// 8. Sort 
+// var angka = [20,30,10,3,7,1,5,2,8,6,4];
+// angka.sort(function(a,b){
+//   return a - b;
+// });
+// console.log(angka.join(' - '));
+var angka = [20,30,10,3,7,1,5,2,8,6,4];
+// ini untuk find
+var angka2 = angka.find(function(x){
+  return x > 5;
+})
+console.log('hasil dari method find ' + angka2);
+// ini untuk filter
+var angka1 = angka.filter(function(x){
+  return x > 5;
+})
+console.log('hasil dari method filter ' + angka1);
